@@ -5,12 +5,12 @@ OpenSLL Build Instructions
 generate your own private and public keys by RSA and add them to main.cpp ( see the code )
 
 ## Ubuntu  
-git clone https://github.com/openssl/openssl
-cd openssl
-git checkout OpenSSL_1_0_1-stable
-./config
-make
-sudo make install
+- git clone https://github.com/openssl/openssl
+- cd openssl
+- git checkout OpenSSL_1_0_1-stable
+- ./config
+- make
+- sudo make install
 
 
 ## Windows 
